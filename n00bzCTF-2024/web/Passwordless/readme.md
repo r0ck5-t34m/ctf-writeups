@@ -24,7 +24,8 @@ import uuid
 
 leet = uuid.UUID('13371337-1337-1337-1337-133713371337')
 admin_uuid = uuid.uuid5(leet, 'admin123')
-print(admin_uuid)```
+print(admin_uuid)
+```
 
 Running this script will give us the UUID. Let’s say the UUID generated is UUID_GENERATED.
 
@@ -33,5 +34,6 @@ Running this script will give us the UUID. Let’s say the UUID generated is UUI
 Once you have the UUID, you can access the /UUID_GENERATED route to get the flag. You can use a browser, curl, or any HTTP client to access the route. Here's how you can do it with curl:
 
 ```sh
-curl http://localhost:1337/UUID_GENERATED```
+curl http://localhost:1337/UUID_GENERATED
+```
 
